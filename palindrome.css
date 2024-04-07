@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  top: 0; 
+  background-color: #0A0A23 !important;
+  font-family: "Jost", sans-serif;
+  display: flex;
+  align-items: center;
+}
+#container {
+  width: 33vw !important;
+  
+}
+.anput {
+  width: 55%;
+  position: relative !important;
+  border: none !important; 
+  border-bottom: 2px solid #5A01A7 !important;
+}
+.anput:focus {
+  border: 2px solid #5A01A7 !important;
+  border-radius: 10px !important;
+}
+
+button {
+  background-color:  #5A01A7 !important;
+}

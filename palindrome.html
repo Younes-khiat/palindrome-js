@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="palindrome.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Milonga&display=swap" rel="stylesheet">
+    <title>Palindrome</title>
+    <!-- Font Awesome -->
+    <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+        rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.min.css"
+        rel="stylesheet"
+    />
+</head>
+<body>
+    <div id="container" class="mx-auto">
+        <h2 class="text-center text-white fs-1 py-3">Houddini(🎩)</h2>
+        <h2 id="title" class="py-2 fs-3 fw-light text-center text-white">Is it a palindrome!? 🤔</h2>
+        <div class="bg-white rounded-9 my-2">
+            <h4 class="fs-5 text-center py-2">Enter in text to check for a palindrome:</h4>
+            <div class="my-3 px-5 border-0 input-group" data-mdb-input-init>
+                <input id="text_input" type="text" class="anput mx-1 text-center form-control form-icon-trailing" required>
+                <button id="check-btn" type="submit" class="mx-1 btn rounded-pill text-white">submit</button>
+            </div>
+            <div id="result" class="result text-center border-2 border-rounded-4 border-primary mx-5 py-2"></div>
+        </div>
+        <p class=" fs-5 bg-success text-start p-3 my-3 rounded-9 text-white">💡 A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing.</p>
+    </div>
+    <!-- MDB -->
+    <script
+        type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"
+    ></script>
+    <script src="palindrome.js"></script>
+</body>
+</html>
